@@ -95,7 +95,7 @@ button{
     display: flex;
 }
 
-.page-hasil{
+#page-hasil {
     background: rgb(173, 216, 241);
     width: 95%;
     max-width: 420px;

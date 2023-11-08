@@ -37,9 +37,9 @@ function calculateBMI() {
   if (bmi < 18.5) {
     bmihasil = "Kurang Berat Badan. Cara terbaik untuk menaikkan berat badan dengan cara mengatur kalori makanan dan mengonsomsi makanan 4 sehat dan 5 sempurna serta iringi dengan olahraga";
   } else if (bmi >= 18.5 && bmi < 25) {
-    bmihasil = "Normal (ideal). Tetap pertahankan dengan mengatur pola makanan dan menjaga olahraga serta tidur yang cukup";
+    bmihasil = "Normal (ideal).Tetap pertahankan dengan mengatur pola makanan dan menjaga olahraga serta tidur yang cukup";
   } else if (bmi >= 25 && bmi < 29.9) {
-    bmihasil = "Kelebihan Berat Badan. Cara terbaik untuk mengurangi berat badan dengan cara mengatur kalori makan yang dikonsumsi dan berolahraga dengan teratur";
+    bmihasil = "Kelebihan Berat Badan.Cara terbaik untuk mengurangi berat badan dengan cara mengatur kalori makan yang dikonsumsi dan berolahraga dengan teratur";
   } else {
     bmihasil = "Kegemukan (Obesitas). Cara terbaik untuk mengurangi berat badan dengan cara mengatur kalori makan yang dikonsumsi dan berolahraga dengan teratur";
   }
