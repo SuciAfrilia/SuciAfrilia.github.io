@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title> KALKULATOR BMI</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="aplikasi">
+            <img scr="logo.png" class="logo">
+            <ul>
+                <li><a href="https://play.google.com/">PlayStore</a></li>
+                <li><a href="https://www.apple.com/id/app-store/">iOs</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="page-calculator">
+        <h1>Kalkulator BMI</h1>
+        <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan,
+            berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?</p>
+        <p>Yuk, hitung sekarang di Kalkulator BMI</p>
+
+        <div class="container-form">
+            <form>
+                <div class="action">
+                    <p>Jenis Kelamin : </p>
+                    <input type="radio" id="male" name="male" value="male">
+                    <label for="male">Pria</label>
+                    <input type="radio" id="female" name="female" value="female">
+                    <label for="female">Wanita</label>
+                </div>
+
+                <div class="wrapper-input">
+                    <label for="Berat Badan">Berat Badan (kg)</label>
+                    <input type="number" id="weight" main="0" step="1" value="0" />
+                </div>
+
+                <div class="wrapper-input">
+                    <label for="Usia">Usia (tahun)</label>
+                    <input type="number" id="Usia" main="0" step="1" value="0" />
+                </div>
+
+                <div class="wrapper-input">
+                    <label for="Tinggi Badan">Tinggi Badan (cm)</label>
+                    <input type="number" id="height" main="0" step="1" value="0" />
+                </div>
+            </form>
+        </div>
+        <div class="result">
+            <button onclick="calculateBMI()" type="button">Hitung BMI</button>
+        </div>
+        <div class="reset">
+            <button type="button">Reset</button>
+        </div>
+        <h3>Keunggulan Fitur</h3>
+        <div class="example-flexbox">
+            <h5>1. Menghitung berat badan</h5>
+            <h5>2. Menetukan kategori berat bdana ideal atau tidak</h5>
+            <h5>3. Mempersiapakn program penurunan berat badan</h5>
+        </div>
+        <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh
+            mengandalkan pembacaan BMI ini) dan tidak ad tindakan yang harus diambil berdasarkan nilainya
+            selain berkonsentrasi dengan orang yang memenuhi syarat seperti dokter.
+        </p>
+
+        <p>Kalkulator akan memberikan anda gambaran tentang perbandingan berat badan anda dengan nilainya
+            umum. Indeks Mass tubuh atau BMI dihitung sebagai berat badan anda dalam kilogram dibagi
+            dengan kuadrat tinggi badan anda dalam meter atau BMI = Kg/M2.
+        </p>
+    </div>
+    <div id="page-hasil">
+        <p id="bmi-result"></p>
+    </div>
+</body>
+
+</html>

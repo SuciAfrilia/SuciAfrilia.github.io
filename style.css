@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+font-family: 'Nunito', sans-serif;
+}
+
+body {
+    place-items: center;
+    display: grid;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+#page-calculator {
+    place-items: center;
+    display: grid;
+}
+
+.aplikasi{
+    width: 85%;
+    margin: 40px;
+    padding: 5px 5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.aplikasi ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.aplikasi ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container-form {
+    background: rgb(204, 204, 204);
+    width: 95%;
+    max-width: 420px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba (0, 0, 0. 0.25);
+    gap: 1rem;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-input {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.button-section {
+    margin-top: 8px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.result{
+    text-align: center;
+    display: flex;
+    margin: 5px 180px;
+}
+
+.reset {
+    text-align: center;
+    margin: 5px 198px;
+    display: flex;
+}
