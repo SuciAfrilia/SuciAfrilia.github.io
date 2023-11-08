@@ -1,20 +1,3 @@
-// const wrapperinput = document.getElementById("wrapperinput")
-// const result = document.getElementById("result")
-
-// wrapperinput.addEventListener('input', function(){
-//     const inputValue = wrapperinput.ariaValueMax.trim()
-//     if (inputValue == "") {
-//         console.log("FALSE")
-//     } else {
-//         console.log("TRUE")
-//     }
-// })
-
-// function validatewrapperinput(input) {
-//     const intergerRegex = /^-?\d+$/;
-//     return intergerRegex.test(input)
-// }
-
 function calculateBMI() {
     console.log("TEST")
     // Get the user's height and weight.
